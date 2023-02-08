@@ -1,10 +1,13 @@
-import React from 'react';
+import React from 'react'
+import CocktailList from '../components/CocktailList';
+import SearchForm from '../components/SearchForm';
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div>
-      <h2>HomePage</h2>
-    </div>
+    <main>
+        <SearchForm/>
+        <CocktailList/>
+    </main>
   )
 }
 

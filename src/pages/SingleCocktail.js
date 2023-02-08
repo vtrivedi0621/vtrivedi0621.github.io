@@ -1,8 +1,10 @@
-import React from 'react';
+import React from 'react'
+import Loading from '../components/Loading'
+import { useParams, Link} from 'react-router-dom'
 
-export const SingleCocktail = () => {
+const SingleCocktail = () => {
   return (
-    <div>SingleCocktail</div>
+    <div><h2>Single Cocktail page</h2></div>
   )
 }
 
