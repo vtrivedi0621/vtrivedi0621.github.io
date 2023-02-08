@@ -4,18 +4,20 @@ import Loading from './Loading';
 import { useGlobalContext } from '../context';
 
 const CocktailList = () => {
-    const {Cocktail, loading} = useGlobalContext() 
-    
+    const {cocktails, loading} = useGlobalContext() 
+    console.log(Cocktail);
 
     if(loading) {
         return <Loading />
     }
 
-    if(Cocktail.length < 1) {
-        return(
-            <h2 className='section-title'>No Cocktails Matched</h2>
+    if (cocktails.length < 1) {
+        return (
+          <h2 className='section-title'>
+            no cocktails matched
+          </h2>
         )
-    }
+      }
   return (
     <div>
         <h2>CocktailList</h2>
