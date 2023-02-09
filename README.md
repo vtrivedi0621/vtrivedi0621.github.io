@@ -1,3 +1,45 @@
+ReactJs Cocktail API Project
+
+This project is built to demonstrate my knowledge in ReatJs,HTML,CSS, ES6 and REST API. Also how I as a Frontend Dev. structure an application with different features and components. Here I used React Router,
+useCallback, useState, useEffect, useContext. 
+
+Installation
+
+To install React Router, used npm install react-router-dom@6
+
+API Link
+
+API link www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
+
+Folder Structure
+
+CocktailReactProject/
+  .vscode
+  README.md
+  node_modules
+  package.json
+  public/
+    index.html
+  src/
+    App.js
+    context.js
+    styles.css
+    index.js
+    components/
+        Cocktail.js
+        CocktailList.js
+        Loading.js
+        Navbar.js
+        SearchForm.js
+    images/
+        logo.svg
+    pages/
+        About.js
+        Error.js
+        Home.js
+        SingleCocktail.js
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +110,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+

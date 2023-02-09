@@ -5,6 +5,7 @@ import SearchForm from '../components/SearchForm';
 const Home = () => {
   return (
     <main>
+        
         <SearchForm/>
         <CocktailList/>
     </main>
