@@ -4,7 +4,7 @@
     --primaryDarkColor: #c02c03;
     --mainWhite: #fff;
     --offWhite: #f7f7f7;
-    --mainBackground: #f1f5f8;
+    --mainBackground: #e6cae0;
     --mainOverlay: rgba(35, 10, 36, 0.4);
     --mainBlack: #222;
     --mainGrey: #ececec;
@@ -127,7 +127,7 @@
   */
   .navbar {
     background: var(--mainWhite);
-    height: 5rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     border-bottom: 2px solid var(--primaryColor);
@@ -160,7 +160,7 @@
     color: var(--primaryColor);
   }
   .logo {
-    width: 12rem;
+    width: 6rem;
   }
   /* 
   ====== 
