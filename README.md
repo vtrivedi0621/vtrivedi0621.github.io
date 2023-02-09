@@ -9,7 +9,14 @@ To install React Router, used npm install react-router-dom@6
 
 API Link
 
-API link www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
+Below is the CocktailDB where you will get more options for API
+https://www.thecocktaildb.com/api.php 
+
+I used below API link for getting list of cocktails
+https://www.thecocktaildb.com/api/json/v1/1/search.php?s= 
+
+I used below API link for singlepage cocktail details.
+https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
 
 Folder Structure
 
