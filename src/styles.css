@@ -1,6 +1,6 @@
 :root {
     --primaryLightColor: #d4e6a5;
-    --primaryColor: #476a2e;
+    --primaryColor: #605aac;
     --primaryDarkColor: #c02c03;
     --mainWhite: #fff;
     --offWhite: #f7f7f7;
@@ -285,17 +285,30 @@
     display: block;
     margin-bottom: 1.25rem;
     font-weight: bold;
+    font-size: 20px;
     letter-spacing: 0.25rem;
     color: var(--primaryColor);
+    margin-left: 100px;
+    
   }
   .form-control input {
-    width: 100%;
+    /* width: 100%;
     border: none;
     border-color: transparent;
     background: var(--mainBackground);
     border-radius: var(--mainBorderRadius);
     padding: 0.5rem;
+    font-size: 1.2rem; */
+    width: 100%;
+    /* margin: px; */
+    padding: 0.5rem;
+    border-radius: 1000px;
+    border: 1px solid #0000ff;
+    box-shadow: 1px 0.5px #888888;
     font-size: 1.2rem;
+    background: var(--mainBackground);
+    border-color: transparent;
+    
   }
   /* 
   ====== 
