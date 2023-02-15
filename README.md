@@ -1,7 +1,10 @@
 ReactJs Cocktail API Project
 
-This project is built to demonstrate my knowledge in ReatJs,HTML,CSS, ES6 and REST API. Also how I as a Frontend Dev. structure an application with different features and components. Here I used React Router,
-useCallback, useState, useEffect, useContext. 
+This project is built to demonstrate my knowledge in ReatJs,HTML,CSS, JavaScript, ES6, Bootstrap and REST API. Also how I as a Frontend Dev. structure an application with different features and components. Here I used React Router, useCallback, useState, useEffect, useContext. 
+
+Below is My Netlify link
+
+https://cheery-kelpie-b39263.netlify.app
 
 Installation
 
@@ -45,7 +48,6 @@ CocktailReactProject/
         Error.js
         Home.js
         SingleCocktail.js
-
 
 # Getting Started with Create React App
 
